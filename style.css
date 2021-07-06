@@ -1,0 +1,110 @@
+body{
+    background-color: #f2f6ff;
+    font-family: Haettenschweiler, sans-serif;
+    margin: 0;
+}
+form{
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    margin: 25px auto;
+    border: 1px solid #ccc;
+}
+.google{color: #FF0000;}
+.facebook{color: #3b5998;}
+.github{color: #4078c0;}
+.linkedin{color: #0e76a8;}
+
+.google:hover, .facebook:hover, .github:hover, .linkedin:hover{
+    color:black;
+}
+.social-icon{
+    font-size: 40px;
+    padding: 16px 32px 16px 32px;
+    transition: 0.5s;
+}
+
+#form-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 46px 0px 32px 0px;
+}
+.social-wrapper{
+    background-color: #f2f6ff;
+    padding: 10px;
+}
+#input-wrapper{
+    padding: 40px 70px 40px 70px;
+}
+.input-box{
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 2px solid teal;
+    background-color: rgb(239, 252, 252);
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=email]:focus {
+    border: 2px solid teal;
+    background-color: rgb(239, 252, 252);
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=password]:focus {
+    border: 2px solid teal;
+    background-color: rgb(239, 252, 252);
+  }
+#btn-submit{
+    background-color: #0056ff;
+    padding: 10px 24px 10px 24px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+#btn-submit:hover{
+  background-color: teal;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px){
+  form{
+    width: 100%;
+  }
+  .social-icon{
+      padding: 10px 15px;
+  }
+}
